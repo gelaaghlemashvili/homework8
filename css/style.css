@@ -55,3 +55,24 @@ a:hover {
         opacity: 0;
     }
 }
+
+
+
+
+.text {
+    margin: 200px 200px;
+    font-size: 20px;
+
+    animation-name: example1;
+    animation-duration: 10s;
+}
+
+@keyframes example1 {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 10px;
+    }
+}
