@@ -3,15 +3,32 @@ header {
     padding: 20px;
     box-shadow: inset 0 0 10px black;
 }
+
 ul {
     display: flex;
     justify-content: space-around;
 }
-li a{
+
+li a {
     font-size: 16px;
     transition: 0.8s;
 }
+
 a:hover {
     background: green;
+
+}
+
+.box {
+    margin: 200px 200px;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 0 0 50px red;
+    transition: 2s;
+}
+
+.box:hover {
+    transform: scale(2);
+    opacity: 0.5;
     
-} 
+}
