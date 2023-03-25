@@ -30,5 +30,28 @@ a:hover {
 .box:hover {
     transform: scale(2);
     opacity: 0.5;
-    
+
+}
+
+.circle {
+    margin: 200px 200px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+
+    animation-name: example;
+    animation-duration: 4s;
+    opacity: 0;
+}
+
+
+@keyframes example {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
