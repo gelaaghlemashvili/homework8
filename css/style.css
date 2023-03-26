@@ -110,12 +110,14 @@ a:hover {
     border-radius: 40px;
     overflow: hidden;
     
+    
 }
 
 .inner-loader {
     height: 100%;
     background: red;
     animation: loader 5s linear;
+    
 }
 
 @keyframes loader {
@@ -128,5 +130,13 @@ a:hover {
         width: 100%;
         opacity: 1;
     }
+}
+h4 {
+    /* margin-left: 650px; */
+    font-size: 20px;
+    padding: 20px 650px;
+    
+    
+    
 }
 
